@@ -1,5 +1,5 @@
 {
-  "name": "intouch/js-installer-plugin",
+  "name": "intouch-games/js-installer-plugin",
   "type": "composer-plugin",
   "autoload": {
     "psr-4": {"intouch\\Composer\\": "src/"}
