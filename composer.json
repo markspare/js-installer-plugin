@@ -5,7 +5,7 @@
     "psr-4": {"intouch-games\\Composer\\": "src/"}
   },
   "extra": {
-    "class": "intouch-games\\Composer\\Plugin"
+    "class": "intouch-games\\Composer\\InstallerPlugin"
   },
   "require": {
     "composer-plugin-api": "^1.0"
