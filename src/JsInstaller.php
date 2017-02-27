@@ -23,7 +23,7 @@ class JsInstaller extends LibraryInstaller
             throw new \InvalidArgumentException(
                 'Unable to install js, intouch js packages '
                 .'should always start their package name with '
-                .'"intouch-games/js-" ('.$prefix.' given)'
+                .'"intouch-games/js-" ("'.$prefix.'" given)'
             );
         }
 
