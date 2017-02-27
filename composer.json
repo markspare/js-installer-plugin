@@ -1,0 +1,13 @@
+{
+  "name": "intouch/js-installer-plugin",
+  "type": "composer-plugin",
+  "autoload": {
+    "psr-4": {"intouch\\Composer\\": "src/"}
+  },
+  "extra": {
+    "class": "intouch\\Composer\\Plugin"
+  },
+  "require": {
+    "composer-plugin-api": "^1.0"
+  }
+}
