@@ -2,10 +2,10 @@
   "name": "intouch-games/js-installer-plugin",
   "type": "composer-plugin",
   "autoload": {
-    "psr-4": {"intouch-games\\Composer\\": "src/"}
+    "psr-4": {"IntouchGames\\Composer\\": "src/"}
   },
   "extra": {
-    "class": "intouch-games\\Composer\\InstallerPlugin"
+    "class": "IntouchGames\\Composer\\InstallerPlugin"
   },
   "require": {
     "composer-plugin-api": "^1.0"

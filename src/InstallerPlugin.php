@@ -6,7 +6,7 @@
  * Time: 10:47
  */
 
-namespace intouch-games\Composer;
+namespace IntouchGames\Composer;
 
 use Composer\Composer;
 use Composer\IO\IOInterface;
