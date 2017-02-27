@@ -6,7 +6,7 @@
  * Time: 11:04
  */
 
-namespace intouch\Composer;
+namespace intouch-games\Composer;
 
 use Composer\Package\PackageInterface;
 use Composer\Installer\LibraryInstaller;
