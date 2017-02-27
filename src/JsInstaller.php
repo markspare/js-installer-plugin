@@ -18,12 +18,12 @@ class JsInstaller extends LibraryInstaller
      */
     public function getInstallPath(PackageInterface $package)
     {
-        $prefix = substr($package->getPrettyName(), 0, 23);
+        $prefix = substr($package->getPrettyName(), 0, 17);
         if ('intouch-games/js-' !== $prefix) {
             throw new \InvalidArgumentException(
                 'Unable to install js, intouch js packages '
                 .'should always start their package name with '
-                .'"intouch/js-"'
+                .'"intouch-games/js-" ('.$prefix.' given)'
             );
         }
 
